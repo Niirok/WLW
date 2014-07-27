@@ -11,6 +11,7 @@ package Interfaces;
  * @author Alexis
  */
 public interface InterfaceItem {
+   
     public String getName();
     public void sell();
     public void buy();

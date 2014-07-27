@@ -8,6 +8,8 @@ package war.lord.wizzard;
 import IHM.ihm;
 import Core.Mage;
 import Core.Stuff;
+import IHM.History;
+import java.io.PrintStream;
 
 
 /**

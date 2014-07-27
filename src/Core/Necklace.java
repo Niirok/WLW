@@ -9,8 +9,12 @@ public class Necklace extends EquipableItem{
    public void equip(Mage m){
       m.getStuff().setNecklace(this);
       m.getInventory().removeOneItem(this.getSlot(m,this));
-   };
-
+   }
+   
+   public void unequip(Mage m){
+       m.getStuff().setNecklace(null);
+       m.getInventory().addItem(this);
+   }
     
    
    

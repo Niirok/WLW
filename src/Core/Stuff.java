@@ -11,7 +11,7 @@ public class Stuff {
     }
     
     public void setNecklace(Necklace n) {
-       if (equiped_Necklace[0] == null) {
+       if (equiped_Necklace[0] == null || n == null) {
            equiped_Necklace[0] = n;
        }
        else { 
